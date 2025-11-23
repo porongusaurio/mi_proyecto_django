@@ -1,0 +1,34 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Proyecto</title>
+  <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1>Mi Proyecto</h1>
+      </div>
+      <nav>
+        <ul>
+          <li class="current"><a href="#">Inicio</a></li>
+          <li><a href="#">Acerca de</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="container">
+    <section id="showcase">
+      <h1>Bienvenido a Mi Proyecto</h1>
+      <p>Este es un proyecto de prueba con Django y GitHub.</p>
+    </section>
+  </div>
+</body>
+</html>
